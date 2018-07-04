@@ -31,7 +31,7 @@
     } else if (self.scrollView.contentOffset.x >= 136){
           self.myView.backgroundColor = [UIColor brownColor];
     }
-   
+    //NSLog(@"%@", NSStringFromCGPoint(scrollView.contentOffset)); //while swiping to the right CGPoint is {136,0}
 }
 
 @end
